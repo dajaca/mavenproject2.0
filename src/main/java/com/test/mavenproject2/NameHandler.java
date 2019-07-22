@@ -20,6 +20,9 @@ public class NameHandler {
      * @return the name
      */
     public String getName() {
+        if (name == null) {
+            name = "EMPTY";
+        }
         return name;
     }
 
